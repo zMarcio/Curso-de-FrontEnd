@@ -1,0 +1,79 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  background-color: #6B8A7A;
+}
+
+.title-prod {
+  color: black;
+  text-align: center;
+  font-size: 30px;
+}
+
+.card-cadastro {
+  height: 100vh;
+  align-items: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cadastro {
+  width: 450px;
+  background-color: #B7B597; /* B7B597 */
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  /* gap: 2.1rem; */
+  height: 65%;
+  padding: 0.5rem;
+  border-radius: 1.5rem;
+}
+
+.form-group {
+  border: none;
+}
+
+.label-text {
+  display: block;
+  color: black;
+  font-size: 20px;
+  margin-bottom: 7px;
+  font-weight: 700;
+}
+
+.input-box {
+  width: 85%;
+  height: 3rem;
+  padding: 0.3rem 1.2rem;
+  border-radius: 1rem;
+  font-size: 20px;
+}
+
+.text-area {
+  height: 5rem;
+}
+
+.input-box::placeholder,
+.text-area::placeholder {
+  text-align: left;
+}
+
+.input-box,
+.checkboxes {
+  margin-left: 1rem;
+}
+
+.checkbox-transformation {
+  color: black;
+}
+
+.checkboxes {
+  gap: 1rem;
+}
+
+.text-checkboxes {
+  font-size: 20px;
+}
